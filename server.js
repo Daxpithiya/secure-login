@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace with your actual hashed password
-const hashedPassword = "$2b$10$2WSyT3V/2Q5/1riBVy3dQOgqRaBdRb8RkRbFDny9Tcs7SDkCq1ySi";
+const hashedPassword = "$2a$12$H31ww/M3kus8aknP10q/tOdatt5p1atH1yrnHttyHoAmxoWbzsMme";
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
