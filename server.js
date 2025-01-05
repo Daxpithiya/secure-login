@@ -38,7 +38,7 @@ app.post("/login", (req, res) => {
 
   bcrypt.compare(password, hashedPassword, (err, result) => {
     if (result) {
-      res.redirect("https://www.your-main-website.com"); // Replace with your actual website URL
+      res.redirect("https://www.localpd.wuaze.com/"); // Replace with your actual website URL
     } else {
       res.send("Incorrect password. Please try again!");
     }
